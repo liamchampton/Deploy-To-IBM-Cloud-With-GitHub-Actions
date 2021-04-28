@@ -1,4 +1,4 @@
-# Step 4 - Manually Deploy Into IBM Cloud
+# Step 4 - Manually Deploy Into IBM Cloud Foundry
 
 The first part of this step is to manually deploy into IBM Cloud Foundry to ensure it works and help you understand what is happening when it is automated.
 
@@ -86,4 +86,6 @@ start command:   ./bin/github-actions-demo
 
 Copy the route of your application and past it into a browser search bar. You will see your application running. Example: `github-actions-demo.eu-gb.mybluemix.net`
 
-Final step is to automate this!
+Once it is all working, commit these changes to your forked repository in GitHub.
+
+Final step is to automate this! 
