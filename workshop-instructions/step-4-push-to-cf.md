@@ -28,6 +28,8 @@ Finally, target IBM Cloud Foundry
 
 `$ ibmcloud target --cf`
 
+**If you get an error, ensure you have the IBM Cloud Foundry Plugin installed for the IBM Cloud CLI. To install it, run this command `$ ibmcloud cf install`**
+
 Now the setup is complete, lets write some YAML!
 
 Open the `manifest.yml` file. This file will contain all the configuration IBM Cloud needs to deploy your application. Copy the code snippet below and paste it into your file. **Make sure to change the parts unique to your deployment**

@@ -4,8 +4,9 @@ Deploy applications to IBM Cloud Foundry using GitHub Actions
 ## Pre-requisites
 
 1) [IBM Cloud account](https://ibm.biz/BdffAw)
-2) [GitHub account](https://github.com/)
-3) [Go](https://golang.org/) installed on your machine
+2) [IBM Cloud CLI + IBM Cloud Foundry Plugin](https://cloud.ibm.com/docs/cli/index.html)
+3) [GitHub account](https://github.com/)
+4) [Go](https://golang.org/) installed on your machine
 
 ---
 
