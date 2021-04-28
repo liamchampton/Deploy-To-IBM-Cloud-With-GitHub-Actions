@@ -17,3 +17,5 @@ If you see an error check:
 - Refer to the [Go installation](https://golang.org/doc/install) guide and ensure you followed the installation steps correctly.
 
 Finally, open the project folder in a code editor and set aside. We will need to make some changes to the files shortly.
+
+[Step 2 - Create an IBM Cloud API Key](./step-2-ibm-cloud-api.md)

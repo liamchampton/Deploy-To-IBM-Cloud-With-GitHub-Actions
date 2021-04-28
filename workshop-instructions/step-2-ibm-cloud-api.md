@@ -17,3 +17,5 @@ Once logged in, head to Manage -> Access (IAM) -> API keys -> Create an IBM Clou
 Give the API key a name and an optional description. Click `Create` and make a note of this key. You will only see it once in this management console.
 
 This is all we need to do in the Cloud console. The rest will be done via the CLI and in GitHub!
+
+[Step 3 - Create a Go App](./step-3-create-app.md)

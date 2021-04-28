@@ -88,4 +88,6 @@ Copy the route of your application and past it into a browser search bar. You wi
 
 Once it is all working, commit these changes to your forked repository in GitHub.
 
-Final step is to automate this! 
+Final step is to automate this!
+
+[Step 5 - Automate the deployment](./step-5-gh-actions-automation.md)

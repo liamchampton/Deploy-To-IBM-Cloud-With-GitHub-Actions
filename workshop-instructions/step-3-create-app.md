@@ -89,3 +89,5 @@ Recap:
 - We have written a test
 - Briefly looked at the different stages for TDD
 - We have written the code to pass the test
+
+[Step 4 - Manually Deploy Into IBM Cloud Foundry](./step-4-push-to-cf.md)
