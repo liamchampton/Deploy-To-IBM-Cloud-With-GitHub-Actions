@@ -1,10 +1,10 @@
 # Step 3 - Create a Go App
 
-This workshop uses a Go application but you can chose your prefered language as long as there is a buildpack in IBM Cloud available. More information on IBM Cloud Foundry can be found on the [product docs](https://cloud.ibm.com/docs/cloud-foundry-public).
+This workshop uses a Go application, but you can chose your preferred language as long as there is a buildpack in IBM Cloud available. More information on IBM Cloud Foundry can be found on the [product docs](https://cloud.ibm.com/docs/cloud-foundry-public).
 
-**Before we start to code, we need to initate `go modules`. To do this run the command `go mod init` from the root of the project. If you get an error, try and run `go mod init <path-to-project-folder>`**
+**Before we start to code, we need to initiate `go modules`. To do this run the command `go mod init` from the root of the project. If you get an error, try and run `go mod init <path-to-project-folder>`**
 
-Now, lets create the test case. Open up the file `main_test.go` and copy in the code below.
+Now, let's create the test case. Open up the file `main_test.go` and copy in the code below.
 
 ```go
 package main
@@ -37,15 +37,15 @@ The TDD unit test cycle should follow RED -> AMBER -> GREEN steps. These steps r
 
 RED - The test is failing.
 
-AMBER - The test is passing but the tested code could preform better or be refactored.
+AMBER - The test is passing but the tested code could perform better or be refactored.
 
-GREEN - The test is passing and the tested code has been refactored.
+GREEN - The test is passing, and the tested code has been refactored.
 
 That being said, try and run the test code with the command `go test -v`
 
 The output should be a FAIL. This represents the RED stage.
 
-Now lets write enough code for the test to pass. Open the `main.go` file and replace the existing `Hello World!` code with the code below.
+Now let's write enough code for the test to pass. Open the `main.go` file and replace the existing `Hello World!` code with the code below.
 
 ```go
 package main
@@ -81,7 +81,7 @@ To run this locally, use the command `go run main.go` and then navigate to `loca
 
 We have now written enough code for the test to pass, representing the AMBER stage.
 
-You would now look into the code and attempt to refactor. This isn't always possible to do and in this instance, this code is fairly concise already so there isn't much, if anything, to refactor. This would land us into the GREEN stage.
+You would now look into the code and attempt to refactor. This isn't always possible to do and, in this instance, this code is fairly concise already so there isn't much, if anything, to refactor. This would land us into the GREEN stage.
 
 Recap:
 - We have written a test
