@@ -1,16 +1,14 @@
 # Step 5 - Automate the deployment
 
-Head over to your forked repository in GitHub and click on the `Settings` tab
+Head over to **your forked** repository in GitHub and click on the `Settings` tab
 
-![github settings](../workshop-assets/images/?.png "GitHub Settings")
+![github settings](../workshop-assets/images/github-repository-settings.png "GitHub Settings")
 
 Scroll down to, and click on `Secrets`
 
-![github secrets](../workshop-assets/images/?.png "GitHub Secrets")
+![github secrets](../workshop-assets/images/github-secrets.png "GitHub Secrets")
 
 Click on `New repository secret`
-
-![github new repository secret](../workshop-assets/images/?.png "GitHub New Repository Secret")
 
 Fill out the details as follows
 
@@ -20,7 +18,7 @@ Value: Your IBM Cloud API key you created in Step 2
 
 Click `Add secret` to save this to your repository
 
-![github add secret](../workshop-assets/images/?.png "GitHub Add Secret")
+![github add secret](../workshop-assets/images/github-new-secret.png "GitHub Add Secret")
 
 Head back to your project in your code editor.
 
@@ -135,7 +133,7 @@ Save your project and commit this into GitHub.
 
 Head back over to your GitHub repository and select the tab `Actions`
 
-![github actions](../workshop-assets/images/?.png "GitHub Actions")
+![github actions](../workshop-assets/images/github-actions.png "GitHub Actions")
 
 From here you can see the workflows that have run. Make a change to the application output.
 
