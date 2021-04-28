@@ -135,9 +135,9 @@ Head back over to your GitHub repository and select the tab `Actions`
 
 ![github actions](../workshop-assets/images/github-actions.png "GitHub Actions")
 
-From here you can see the workflows that have run. Make a change to the application output.
+From here you can see the workflows that have run.
 
-Instead of the output being "This is a test for GitHub Actions", have it output "This is <your-name>'s GitHub Actions demo".
+Let's make a change to the application output. Instead of the output being "This is a test for GitHub Actions", have it output "This is *your-name*'s GitHub Actions demo".
 
 Update the test code and then commit it into GitHub.
 
