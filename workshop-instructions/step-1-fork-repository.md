@@ -1,4 +1,4 @@
-# Step 1 - Fork repository
+# Step 1 - Fork the GitHub repository
 Start by forking this repository as shown below
 
 ![fork workshop repository](../workshop-assets/images/fork-repository.png "Fork Workshop Repository")

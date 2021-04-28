@@ -2,7 +2,7 @@
 
 The first part of this step is to manually deploy into IBM Cloud Foundry to ensure it works and help you understand what is happening when it is automated.
 
-Open up a new terminal session and login to the [IBM Cloud CLI](<LINK-HERE>). If you have not already installed it, please do so.
+Open up a new terminal session and login to the [IBM Cloud CLI](https://ibm.biz/BdffAw). If you have not already installed it, please do so.
 
 To login use the command
 

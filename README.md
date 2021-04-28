@@ -1,8 +1,22 @@
-# deploy-to-ibm-cloud-with-github-actions
+# Deploy-To-IBM-Cloud-With-GitHub-Actions
 Deploy applications to IBM Cloud Foundry using GitHub Actions
 
-Pre-requisites
+## Pre-requisites
 
-1) IBM Cloud account
+1) [IBM Cloud account](https://ibm.biz/BdffAw)
 2) [GitHub account](https://github.com/)
 3) [Go](https://golang.org/) installed on your machine
+
+---
+
+- [Fork the GitHub repository]
+- [Create an IBM Cloud API key]
+- [Create a Go App]
+- [Manually deploy into IBM Cloud Foundry]
+- [Automate the deployment]
+
+[Fork the GitHub repository]: ./workshop-instructions/step-1-fork-repository.md
+[Create an IBM Cloud API key]: ./workshop-instructions/step-2-ibm-cloud-api.md
+[Create a Go App]: ./workshop-instructions/step-3-create-app.md
+[Manually deploy into IBM Cloud Foundry]: ./workshop-instructions/step-4-push-to-cf.md
+[Automate the deployment]: ./workshop-instructions/step-5-gh-actions-automation.md

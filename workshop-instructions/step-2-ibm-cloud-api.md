@@ -2,7 +2,7 @@
 
 In this workshop, we will not be using the management console much. This is all about automation. However, to allow this to happen we need to create an API Key that gives the workflow access to our cloud account.
 
-Start by creating or logging into your [IBM Cloud Account](<LINK-HERE>) (don't worry, it is free and doesn't require a credit / debit card).
+Start by creating or logging into your [IBM Cloud Account](https://ibm.biz/BdffAw) (don't worry, it is free and doesn't require a credit / debit card).
 
 ![ibm cloud sign up](../workshop-assets/images/ibm-cloud-sign-up.png "IBM Cloud Sign Up")
 
