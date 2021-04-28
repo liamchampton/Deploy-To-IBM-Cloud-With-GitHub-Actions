@@ -143,4 +143,4 @@ Update the test code and then commit it into GitHub.
 
 Wait for the workflow to finish and then check your application using the route you specified in your `manifest.yml`. You will see your updated change!
 
-:tada: Congratulations, you have completed this workshop! You now have the skills needed to deploy your applications into IBM Cloud Foundry using GitHub Action! :tada:
+:tada: Congratulations, you have completed this workshop! You now have the skills needed to deploy your applications into IBM Cloud Foundry using a GitHub Action workflow! :tada:
