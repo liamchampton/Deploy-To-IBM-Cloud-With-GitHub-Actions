@@ -1,11 +1,11 @@
 # Step 1 - Fork repository
 Start by forking this repository as shown below
 
-![fork workshop repository](../workshop-assets/images/?.png "Fork Workshop Repository")
+![fork workshop repository](../workshop-assets/images/fork-repository.png "Fork Workshop Repository")
 
 Now you have a copy of the repository clone it onto your own machine into your GOPATH. This is usually `$HOME/go/src/github.com/` (This path is dependent on how you set up your Go installation).
 
-![clone workshop repository](../workshop-assets/images/?.png "Clone Workshop Repository")
+![clone workshop repository](../workshop-assets/images/clone-repository.png "Clone Workshop Repository")
 
 `cd` into the project folder and check it works. Run the command `go run main.go` from within the root of the project.
 
