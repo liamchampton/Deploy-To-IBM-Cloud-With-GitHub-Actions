@@ -83,6 +83,8 @@ We have now written enough code for the test to pass, representing the AMBER sta
 
 You would now look into the code and attempt to refactor. This isn't always possible to do and, in this instance, this code is fairly concise already so there isn't much, if anything, to refactor. This would land us into the GREEN stage.
 
+Once it is all working locally, commit these changes to your forked repository in GitHub.
+
 Recap:
 - We have written a test
 - Briefly looked at the different stages for TDD
