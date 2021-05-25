@@ -43,10 +43,9 @@ jobs:
         run: |
           echo build application binary in this section
 
-    # Run vet & lint against the code
+    # Run lint against the code
       - name: Run go vet and lint
         run: |
-          go vet .
           golint .
       
     # Run the test we created for the application
