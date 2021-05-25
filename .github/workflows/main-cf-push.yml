@@ -80,5 +80,5 @@ jobs:
     
     # Deploy the application
       - name: Deploy manifest file
-        run: ibmcloud cf push -f ./$MANIFEST_NAME
+        run: ibmcloud cf push -f ./manifest.yml
         shell: bash
