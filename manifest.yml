@@ -1,0 +1,6 @@
+applications:
+  - name: lch-github-actions-demo
+    routes:
+      - route: lch-github-actions-demo.eu-gb.mybluemix.net
+    memory: 128M
+    buildpack: go_buildpack

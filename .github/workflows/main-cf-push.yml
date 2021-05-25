@@ -23,37 +23,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-    # Use Go version 1.16.0
       - uses: actions/checkout@v2
       - name: Setup Go
         uses: actions/setup-go@v2
         with:
           go-version: '1.16.0'
 
-    # Install dependencies
       - name: Install dependencies
         run: |
           go version
           go get -u golang.org/x/lint/golint
           echo install other deps in this section
-
-    # Add go build commands if you wish you create binary artifacts
       - name: Build application
         run: |
           echo build application binary in this section
-
-    # Run lint against the code
       - name: Run go vet and lint
         run: |
+          go vet .
           golint .
       
+      - name: Run testing
+        run: |
+          go test -v
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-
-    # Install IBM CLI into the image
       - uses: actions/checkout@v2
       - name: Install IBM CLI
         run: |
@@ -61,29 +56,16 @@ jobs:
           ibmcloud --version
           ibmcloud config --check-version=false
         shell: bash
-    
-    # Install the Cloud Foundry plugin
       - name: Install CF plugin
         run: ibmcloud cf install -f
         shell: bash
-
-    # Login to IBM Cloud
-      - name: Login to IBM Cloud
+      - name: Log into IBM Cloud
         run: |
           ibmcloud login --apikey "$IBM_CLOUD_API" -r "$IBM_CLOUD_REGION" -g "$IBM_CLOUD_GROUP"
         shell: bash
-
-    # Target Cloud Foundry
       - name: Target CF
         run: ibmcloud target --cf-api https://api.$IBM_CLOUD_REGION.cf.cloud.ibm.com -r $IBM_CLOUD_REGION -o $IBM_CLOUD_ORG -s $IBM_CLOUD_SPACE
         shell: bash
-
-    # Deploy the application
-      - name: files
-        run: ls
-        shell: bash
-
-    # Deploy the application
       - name: Deploy manifest file
-        run: ibmcloud cf push -f ./manifest.yml
+        run: ibmcloud cf push -f ./$MANIFEST_NAME
         shell: bash
