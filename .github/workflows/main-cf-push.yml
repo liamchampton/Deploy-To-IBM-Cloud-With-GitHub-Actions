@@ -49,6 +49,10 @@ jobs:
           go vet .
           golint .
       
+    # Run the test we created for the application
+      - name: Run testing
+        run: |
+          go test -v
 
   deploy:
     runs-on: ubuntu-latest
